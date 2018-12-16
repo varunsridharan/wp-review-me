@@ -1,0 +1,32 @@
+{
+  "name"        : "varunsridharan/wp-review-me",
+  "description" : "This library provides developers to ask end user to review their product (theme / plugin)",
+  "type"        : "library",
+  "license"     : "GPL-3.0-or-later",
+  "keywords"    : [
+	"WordPress",
+	"review",
+	"wordpress theme",
+	"wordpress plugin",
+	"codecanyon",
+	"themeforest",
+	"paid themes",
+	"envato",
+	"templatemonster",
+	"envato-market",
+	"wordpress review",
+	"theme review",
+	"plugin review"
+  ],
+  "autoload"    : {
+	"files" : [ "./class-wp-review-me.php" ]
+  },
+  "authors"     : [
+	{
+	  "name"     : "Varun",
+	  "email"    : "varunsridharan23@gmail.com",
+	  "homepage" : "https://varunsridharan.in",
+	  "role"     : "Developer"
+	}
+  ]
+}
