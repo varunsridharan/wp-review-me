@@ -8,20 +8,20 @@
  * @license   GPLV3 Or Greater
  */
 
-namespace Varunsridharan\WP_Review_Me;
+namespace Varunsridharan\WordPress;
 
 if ( ! defined( 'WPINC' ) ) {
 	die;
 }
 
 /**
- * Class WP_Review_Me
+ * Class Review_Me
  *
- * @package Varunsridharan\WP_Review_Me
+ * @package Varunsridharan\WordPress
  * @author Varun Sridharan <varunsridharan23@gmail.com>
  * @since 1.0
  */
-class WP_Review_Me {
+class Review_Me {
 	/**
 	 * Library Version
 	 *
@@ -58,7 +58,7 @@ class WP_Review_Me {
 	protected $op = array();
 
 	/**
-	 * WP_Review_Me constructor.
+	 * Review_Me constructor.
 	 *
 	 * @param array $options
 	 */

@@ -44,7 +44,7 @@ Or **install it manually**:
 
 #### Plugin / Theme From Wordpress.org
 ```php
-$review_instance = new Varunsridharan\WP_Review_Me\WP_Review_Me(array(
+$review_instance = new Varunsridharan\WordPress\Review_Me(array(
     'days_after' => 2,
     'slug' => 'your-plugin',
     'type' => 'plugin', # Use theme if you are using it in a theme
@@ -55,7 +55,7 @@ $review_instance = new Varunsridharan\WP_Review_Me\WP_Review_Me(array(
 
 #### Plugin From Codecanyon.net
 ```php
-$review_instance = new Varunsridharan\WP_Review_Me\WP_Review_Me(array(
+$review_instance = new Varunsridharan\WordPress\Review_Me(array(
     'days_after' => 2,
     'slug' => 'your-plugin',
     'site' => 'codecanyon',
@@ -65,7 +65,7 @@ $review_instance = new Varunsridharan\WP_Review_Me\WP_Review_Me(array(
 
 #### Theme From themeforest.net
 ```php
-$review_instance = new Varunsridharan\WP_Review_Me\WP_Review_Me(array(
+$review_instance = new Varunsridharan\WordPress\Review_Me(array(
     'days_after' => 2,
     'slug' => 'your-plugin',
     'site' => 'themeforest',
@@ -83,7 +83,7 @@ function your_plugin_review_notice_add($review_me){
     // use your custom notice handle to add / display the notice
 }
 
-$review_instance = new Varunsridharan\WP_Review_Me\WP_Review_Me(array(
+$review_instance = new Varunsridharan\WordPress\Review_Me(array(
     'days_after' => 2,
     'slug' => 'your-plugin',
     'type' => 'plugin', # Use theme if you are using it in a theme
