@@ -19,7 +19,9 @@
 	"plugin review"
   ],
   "autoload"    : {
-	"files" : [ "./class-wp-review-me.php" ]
+	"files" : [
+	  "./class-wp-review-me.php"
+	]
   },
   "authors"     : [
 	{
