@@ -96,3 +96,8 @@ $review_instance = new Varunsridharan\WordPress\Review_Me(array(
 [![View 1](https://raw.githubusercontent.com/varunsridharan/wp-review-me/master/screenshot-1.jpg)](https://raw.githubusercontent.com/varunsridharan/wp-review-me/master/screenshot-1.jpg)
 
 [![View 2](https://raw.githubusercontent.com/varunsridharan/wp-review-me/master/screenshot-2.jpg)](https://raw.githubusercontent.com/varunsridharan/wp-review-me/master/screenshot-2.jpg)
+
+
+---
+## Sponsored By
+[![DigitalOcean](https://vsp.ams3.cdn.digitaloceanspaces.com/cdn/DO_Logo_Horizontal_Blue.png)](https://s.svarun.in/Ef)
