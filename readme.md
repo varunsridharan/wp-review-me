@@ -1,6 +1,13 @@
 # WordPress Review Me Library
 This library provides developers to ask end user to review their product (theme / plugin)
 
+[![Latest Stable Version](https://poser.pugx.org/varunsridharan/wp-review-me/version)](https://packagist.org/packages/varunsridharan/wp-review-me)
+[![Total Downloads](https://poser.pugx.org/varunsridharan/wp-review-me/downloads)](https://packagist.org/packages/varunsridharan/wp-review-me)
+[![Latest Unstable Version](https://poser.pugx.org/varunsridharan/wp-review-me/v/unstable)](//packagist.org/packages/varunsridharan/wp-review-me)
+[![License](https://poser.pugx.org/varunsridharan/wp-review-me/license)](https://packagist.org/packages/varunsridharan/wp-review-me)
+[![composer.lock available](https://poser.pugx.org/varunsridharan/wp-review-me/composerlock)](https://packagist.org/packages/varunsridharan/wp-review-me)
+
+
 ## Installation
 The preferred way to install this extension is through [Composer](http://getcomposer.org/download/).
 
@@ -100,4 +107,4 @@ $review_instance = new Varunsridharan\WordPress\Review_Me(array(
 
 ---
 ## Sponsored By
-[![DigitalOcean](https://vsp.ams3.cdn.digitaloceanspaces.com/cdn/DO_Logo_Horizontal_Blue.png)](https://s.svarun.in/Ef)
+[![DigitalOcean](https://vsp.ams3.cdn.digitaloceanspaces.com/cdn/DO_Logo_Horizontal_Blue-small.png)](https://s.svarun.in/Ef)  [![JetBrains](https://vsp.ams3.cdn.digitaloceanspaces.com/cdn/phpstorm-small.png?v3)](https://www.jetbrains.com)
