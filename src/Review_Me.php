@@ -27,7 +27,7 @@ class Review_Me {
 	 *
 	 * @var string
 	 */
-	public $version = '1.0';
+	public $version = '1.4';
 
 	/**
 	 * linkid
@@ -115,8 +115,8 @@ class Review_Me {
 	/**
 	 * Check if it is time to ask for a review
 	 *
-	 * @since 1.0
 	 * @return bool
+	 * @since 1.0
 	 */
 	protected function is_time() {
 		$installed = \get_option( $this->key, false );
@@ -135,8 +135,8 @@ class Review_Me {
 	/**
 	 * Save the current date as the installation date
 	 *
-	 * @since 1.0
 	 * @return void
+	 * @since 1.0
 	 */
 	protected function setup_date() {
 		\update_option( $this->key, time() );
@@ -152,8 +152,8 @@ class Review_Me {
 	/**
 	 * Get the review prompt message
 	 *
-	 * @since 1.0
 	 * @return string
+	 * @since 1.0
 	 */
 	public function get_message() {
 		$message = $this->op['message'];
@@ -165,8 +165,8 @@ class Review_Me {
 	/**
 	 * Get the complete link tag
 	 *
-	 * @since 1.0
 	 * @return string
+	 * @since 1.0
 	 */
 	protected function get_review_link_tag() {
 		$link  = $this->get_review_link();
@@ -177,8 +177,8 @@ class Review_Me {
 	/**
 	 * Get the review link
 	 *
-	 * @since 1.0
 	 * @return string
+	 * @since 1.0
 	 */
 	protected function get_review_link() {
 		if ( false === $this->op['review_link'] ) {
@@ -195,9 +195,9 @@ class Review_Me {
 						break;
 				}
 
-				$link .= $this->op['type'] . '/reviews';
+				$link .= $this->op['slug'] . '/reviews';
 
-				$link = \add_query_arg( 'rate', $this->op['rating'], $link ) . \esc_url( $link . '#new-post' );
+				$link = \add_query_arg( 'rate', $this->op['rating'], $link ) . '#new-post';
 			} elseif ( 'codecanyon' === $this->op['site'] ) {
 				$link = 'https://codecanyon.net/item/x/reviews/' . $this->op['item_id'] . '#rating-' . $this->op['item_id'];
 			} elseif ( 'themeforest' === $this->op['site'] ) {
@@ -213,8 +213,8 @@ class Review_Me {
 	/**
 	 * Echo the JS script in the admin footer
 	 *
-	 * @since 1.0
 	 * @return void
+	 * @since 1.0
 	 */
 	public function script() { ?>
 
@@ -241,8 +241,8 @@ class Review_Me {
 	/**
 	 * Dismiss the notice when the review link is clicked
 	 *
-	 * @since 1.0
 	 * @return void
+	 * @since 1.0
 	 */
 	public function dismiss_notice() {
 		if ( empty( $_POST ) ) {
