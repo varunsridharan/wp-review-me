@@ -10,9 +10,6 @@
 
 namespace Varunsridharan\WordPress;
 
-if ( ! defined( 'WPINC' ) ) {
-	die;
-}
 
 if ( ! class_exists( '\Varunsridharan\WordPress\Review_Me' ) ) {
 	/**
